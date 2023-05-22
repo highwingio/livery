@@ -1,6 +1,6 @@
--# [Livery](https://en.wikipedia.org/wiki/Aircraft_livery)
+# [Livery](https://en.wikipedia.org/wiki/Aircraft_livery)
 
-Highwing's shared style and linting configurations for Ruby.
+Highwing's shared style and linting configurations for Ruby projects.
 
 ## Installation
 
@@ -8,14 +8,14 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test, :development do
-  gem 'livery'
+  gem 'livery', github: 'highwingio/livery'
 end
 ```
 
-Or, for a Ruby library, add this to your gemspec:
+For a Ruby library, also add this to your gemspec:
 
 ```ruby
-spec.add_development_dependency 'percy-style'
+spec.add_development_dependency 'livery'
 ```
 
 And then run:
