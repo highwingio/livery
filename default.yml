@@ -10,7 +10,6 @@ inherit_gem:
   rubocop-rspec: config/default.yml
   rubocop-gitlab-security: config/default.yml
 AllCops:
-  TargetRubyVersion: 3.X
   DisplayStyleGuide: true
   DisplayCopNames: true
   Exclude:
