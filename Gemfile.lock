@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    livery (0.2.1)
+    livery (0.2.2)
       betterlint (~> 1.4)
       rubocop (~> 1)
       rubocop-gitlab-security (~> 0.1)
