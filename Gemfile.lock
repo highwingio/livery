@@ -5,7 +5,6 @@ PATH
       betterlint (~> 1.4)
       rubocop (~> 1.63.5)
       rubocop-gitlab-security (~> 0.1)
-      rubocop-rails (~> 2)
       rubocop-rspec (~> 2)
       standard (~> 1.36.0)
 
