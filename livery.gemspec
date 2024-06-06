@@ -23,11 +23,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "betterlint", "~> 1.4"
-  spec.add_runtime_dependency "rubocop", "~> 1"
+  spec.add_runtime_dependency "rubocop", "~> 1.63.5"
   spec.add_runtime_dependency "rubocop-gitlab-security", "~> 0.1"
-  spec.add_runtime_dependency "rubocop-rails", "~> 2"
   spec.add_runtime_dependency "rubocop-rspec", "~> 2"
-  spec.add_runtime_dependency "standard", "~> 1"
+  spec.add_runtime_dependency "standard", "~> 1.36.0"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
